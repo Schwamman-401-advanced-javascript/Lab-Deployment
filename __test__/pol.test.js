@@ -1,4 +1,4 @@
-'use strict';
+
 
 let pol = require('../pol.js');
 

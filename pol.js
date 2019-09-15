@@ -1,4 +1,3 @@
-'use strict';
 
 /**
  * Proof Of Life
