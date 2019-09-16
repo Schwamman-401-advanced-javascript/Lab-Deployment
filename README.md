@@ -1,23 +1,23 @@
 # LAB - 00
 
-## Deployment Tutorial
+## Proof of Life Server
 
-### Author: John Cokos
+### Author: Jonathon Schwamman
 
 ### Links and Resources
-* [submission PR](https://github.com/tutuorial-401js/class-00)
-* [travis](https://travis-ci.com/tutuorial-401js/class-00)
-* [front-end](https://tutorial-401js.herokuapp.com/)
+* [submission PR](https://github.com/Schwamman-401-advanced-javascript/Lab-Deployment/pull/1)
+* [travis](https://travis-ci.com/Schwamman-401-advanced-javascript/Lab-Deployment)
+* [front-end](https://deployment-lab.herokuapp.com/)
 
 #### Documentation
-* [jsdoc](https://tutorial-401js.herokuapp.com/docs)
+* [jsdoc](https://deployment-lab.herokuapp.com/docs)
 
 ### Modules
 #### `pol.js`
 ##### Exported Values and Methods
 
 ###### `isAlive(dead) -> boolean`
-The isAlive() method returns a boolean based on the arg sent in.
+The isAlive() method returns a true or false.
 
 ### Setup
 #### `.env` requirements
@@ -26,17 +26,14 @@ The isAlive() method returns a boolean based on the arg sent in.
 #### Running the app
 * `npm start`
 * Endpoint: `/`
-  * Returns true or false
+  * Returns a boolean
 * Endpoint: `/docs`
-  * Renders Developer Documentation
+  * Returns jsdoc documentation
   
 #### Tests
 * Unit Tests: `npm run test`
 * Lint Tests: `npm run lint`
-* Assertions Made
-  * Assert that isAlive() properly returns a boolean
-* Assertions Remaining
-  * ... Things I want to tests, but didn't yet.
+
 
 #### UML
 
